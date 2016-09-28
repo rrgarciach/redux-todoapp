@@ -12,7 +12,7 @@ module.exports = {
             exclude: /node_modules/,
             loaders: ['babel'] // Include react hot reloader
         }, {
-            test: /\.css$/,
+            test: /\.css?$/,
             loaders: ['style', 'css'] // Add CSS loader
         }]
     },
