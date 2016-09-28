@@ -10,7 +10,7 @@ module.exports = {
         loaders: [{
             test: /\.jsx?$/,
             exclude: /node_modules/,
-            loader: 'react-hot!babel' // Include react hot reloader
+            loaders: ['babel'] // Include react hot reloader
         }]
     },
     resolve: {
@@ -26,6 +26,6 @@ module.exports = {
         hot: true // Activate hot reloading
     },
     plugins: [
-        new webpac.HotModuleReplacementPLuign() // Attach the hot reloading plugin
+        new webpack.HotModuleReplacementPlugin() // Attach the hot reloading plugin
     ]
 };
