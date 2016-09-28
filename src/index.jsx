@@ -9,6 +9,8 @@ const todos = List.of(
     Map({id: 2, text: 'Redux', status: 'active', editing: false}),
 );
 
+require('../node_modules/todomvc-app-css/index.css');
+
 ReactDOM.render(
     <TodoApp todos={todos} />,
     document.getElementById('app')

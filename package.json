@@ -21,8 +21,10 @@
     "babel-preset-react": "^6.11.1",
     "chai": "^3.5.0",
     "chai-immutable": "^1.6.0",
+    "css-loader": "^0.25.0",
     "jsdom": "^9.5.0",
     "mocha": "^3.1.0",
+    "style-loader": "^0.13.1",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.1"
   },
@@ -41,6 +43,7 @@
     "immutable": "^3.8.1",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
-    "react-hot-loader": "^3.0.0-beta.5"
+    "react-hot-loader": "^3.0.0-beta.5",
+    "todomvc-app-css": "^2.0.6"
   }
 }
